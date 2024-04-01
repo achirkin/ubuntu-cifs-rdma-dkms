@@ -1,0 +1,9 @@
+Package: cifs-rdma-dkms
+Version: 1.0
+Section: misc
+Priority: optional
+Architecture: all
+Depends: dkms (>= 1.95), linux-headers, build-essential, dwarves
+Maintainer: Artem Chirkin <achirkin@users.noreply.github.com>
+Description: cifs with rdma
+ cifs kernel module compiled with CONFIG_CIFS_SMB_DIRECT
